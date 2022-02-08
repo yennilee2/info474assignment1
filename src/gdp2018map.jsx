@@ -63,10 +63,10 @@ const GDPMap = ({ width = 960, height = 500 }) => {
             </foreignObject>
 
             <foreignObject x={width} y={200} width={300} height={300}>
-                To answer the question of what GDP per capita growth looks like for the United States, 
-                This graph shows that there is a steady increase in income from 1800 to 1940, and 1940 
-                marks the beginning of a steep increase in income per person. In the span of roughly 60 years,
-                GDP per capita is multiplied by almost four. 
+                To answer the question of what GDP per capita looks like on a map, this choropleth map shows the
+                differences in GDP per capita in 2018. Key information is that North American, European, and Oceanic
+                countries seem to have the highest income per person based on the data. Additionally, Saudi Arabia 
+                and Japan have a relatively high average income per person as well.
             </foreignObject>
         </svg>
       </div>

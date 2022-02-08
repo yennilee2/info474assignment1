@@ -101,6 +101,9 @@ function App() {
         </div>
         <div class="f6">
           <p>Figure 6. Table of Countries with the highest GDP per capita in 2018.</p>
+          <p>This table shows the highest amounts of average GDP per capita, with Qatar at a significantly 
+            higher amount. The 10th highest GDP per capita in the world is in Hong Kong, at $50,839.
+          </p>
         </div>
       </div>
       <div class="response">
@@ -115,6 +118,17 @@ function App() {
         </ol>
         <p>
           Analysis process:
+        </p>
+        <p>
+          I wanted to explore the data with an intention of finding inequality or extreme differences in GDP per country.
+          Although there is a lot more to dig in to, I chose to answer my questions using choropleth maps, dot plots, and 
+          bar charts that highlights the differents in the distribution. Using data from ilostat, I transformed the csv to 
+          a js file and created objects and arrays that filtered for the specific data I would need to plot these visualizations.
+        </p>
+        <p>
+          From this assignment, I learned that time and location have some sort of an effect on GDP per capita. Visually, 
+          there are many ways to have communicated this finding, but there are specific types of charts, for example, a 
+          choropleth map to show a location variable, that aids in this process. 
         </p>
       </div>
 

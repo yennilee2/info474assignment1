@@ -63,10 +63,10 @@ const GDPMap1950 = ({ width = 960, height = 500 }) => {
             </foreignObject>
 
             <foreignObject x={width} y={200} width={300} height={300}>
-                To answer the question of what GDP per capita growth looks like for the United States, 
-                This graph shows that there is a steady increase in income from 1800 to 1940, and 1940 
-                marks the beginning of a steep increase in income per person. In the span of roughly 60 years,
-                GDP per capita is multiplied by almost four. 
+                This choropleth map highlights the differences in GDP per capita in different countries in 1950. Compared to
+                Figure 1, the maximum average GDP per capita is significantly lower than in 2018. Australia, Canada, USA, and 
+                Saudi Arabia are amongst several other countries who have had a drastic increase in their average income per
+                person.
             </foreignObject>
         </svg>
       </div>

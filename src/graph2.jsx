@@ -84,11 +84,14 @@ const USAPercentDec = () => {
                     Year
                 </text>
                 <foreignObject x={600} y={100} width={300} height={100}>
-                    Figure 4. Comparison of GDP per capita in the United States and China between 2000 to 2018.
+                    Figure 4. Comparison of GDP per capita change in the United States and China between 2000 to 2018.
                 </foreignObject>
 
                 <foreignObject x={600} y={200} width={300} height={300}>
-                    meep
+                    This graph depicts the difference in GDP per capita using 2000 as the point of comparison for the USA 
+                    and China. Interestingly, the graph shows that the maximum increase in average income per person is 
+                    roughly 20% after 18 years, and China on the other hand, has seen more than a 180% increase in their
+                    average income per person.
                 </foreignObject>
             </svg>
         </div>

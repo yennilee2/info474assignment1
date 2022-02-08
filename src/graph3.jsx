@@ -104,11 +104,14 @@ const IncomeHist = () => {
                     GDP Per Capita ($)
                 </text>
                 <foreignObject x={600} y={100} width={300} height={100}>
-                    Figure 5. Comparison of GDP per capita in the United States and China between 2000 to 2018.
+                    Figure 5. Number of countries and average GDP per capita in 2018.
                 </foreignObject>
 
                 <foreignObject x={600} y={200} width={300} height={300}>
-                    heh
+                    This chart shows the distribution of average GDP per capita in the world in 2018. Of note is 
+                    the significantly large number of countries that have an average income per person falling between 
+                    $0 and $5,000, and 19 other countries having average GDP per capita over $65,000. The distribution is 
+                    right-skewed.
                 </foreignObject>
             </svg>
         </div>
