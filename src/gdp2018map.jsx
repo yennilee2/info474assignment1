@@ -20,7 +20,7 @@ const color = scaleLinear({
         0,50000
     ],
     range: ["#ffedea", "#ff5233"],
-  });
+});
 
 const GDPMap = ({ width = 960, height = 500 }) => {
     const projection = geoNaturalEarth1()

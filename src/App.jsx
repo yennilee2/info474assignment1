@@ -10,6 +10,7 @@ import GDPMap1950 from './gdp1950map';
 import USADecade from './graph1';
 import USAPercentDec from './graph2';
 import IncomeHist from './graph3';
+import Interactive from './interactive';
 
 
 function App() {
@@ -62,10 +63,13 @@ function App() {
   };
   
   const top10 = (top10values(income2018));
-  console.log(top10);
 
   return (
     <div className="App">
+      {/* ASSIGNMENT 3 */}
+      <h1>Assignment 3</h1>
+      <Interactive />
+
       {/* ASSIGNMENT 2 */}
       <h1>Assignment 2</h1>
       <GDPMap />
@@ -111,7 +115,7 @@ function App() {
           Questions:
         </p>
         <ol>
-          <li> How does the US’s gdp/gdp growth compare to other countries?</li>
+          <li>How does the US’s gdp/gdp growth compare to other countries?</li>
           <li>Are there specific areas of the world that are more susceptible to lower gdps? 
             Which countries suffer most from lack of gdp growth and what factors influence that?</li>
           <li>Which countries’ gdp have grown most significantly?</li>
@@ -126,7 +130,8 @@ function App() {
           a js file and created objects and arrays that filtered for the specific data I would need to plot these visualizations.
         </p>
         <p>
-          From this assignment, I learned that time and location have some sort of an effect on GDP per capita. Visually, 
+          From this assignment, I learned that time and location have some sort of an effect on GDP per capita. In order
+          to confidently say that there is correlation, I would have to do a lot more analysis and create more charts. Visually, 
           there are many ways to have communicated this finding, but there are specific types of charts, for example, a 
           choropleth map to show a location variable, that aids in this process. 
         </p>

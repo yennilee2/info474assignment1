@@ -65,3 +65,19 @@ table {
 .response {
   text-align: left;
 }
+
+.select {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 80px;
+}
+
+.i-chart {
+  display: inline-block;
+}
+
+.reflection {
+  padding: 0px 50px;
+  text-align: left;
+}
