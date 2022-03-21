@@ -11,6 +11,7 @@ import USADecade from './graph1';
 import USAPercentDec from './graph2';
 import IncomeHist from './graph3';
 import Interactive from './interactive';
+import LinkedPlot from './linkedplot';
 
 
 function App() {
@@ -66,6 +67,10 @@ function App() {
 
   return (
     <div className="App">
+      {/* ASSIGNMENT 4 */}
+      <h1>Assignment 4</h1>
+      <LinkedPlot />
+
       {/* ASSIGNMENT 3 */}
       <h1>Assignment 3</h1>
       <Interactive />

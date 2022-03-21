@@ -22,6 +22,7 @@ const color = scaleLinear({
     range: ["#ffedea", "#ff5233"],
 });
 
+
 const GDPMap = ({ width = 960, height = 500 }) => {
     const projection = geoNaturalEarth1()
       .center([0, 5])
@@ -32,6 +33,7 @@ const GDPMap = ({ width = 960, height = 500 }) => {
     return (
       <div>
         <svg width={width + 500} height={height}>
+            <circle cx={100} cy={10} r={5} fill="black"/>
             <g>
                 {countryShapes.map((shape, i) => {
                     return (

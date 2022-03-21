@@ -43,7 +43,6 @@ gdp.forEach((row) => {
 // });
 
 
-
 // chart stuff, look at again
 var chartSize = 500;
 var chartMarginL = 50;
@@ -74,7 +73,7 @@ const Interactive = () => {
     const [selectC, setSelectC] = useState(
         ["United States"],
     );
-    console.log(selectC);
+    // console.log(selectC);
 
     const color = scaleLinear({
         domain: [
@@ -113,7 +112,6 @@ const Interactive = () => {
                 <svg width={chartSize + 120}
                 height={chartSize}>
                     {selectedCountries.map((c, ind) => {
-                        console.log(c);
                         return (
                             <>
                                 {Object.entries(c).map(([key, value], i) => {
